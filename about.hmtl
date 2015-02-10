@@ -1,0 +1,133 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta title="St. Mary of the Lake">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Della+Respira' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!--header -->
+<!-- Navbar -->
+<div class="container-fluid" id="header">
+  <div class="container-fluid" id="logo">
+            <h1><a href="index.html">Saint Mary of the Lake Church</a></h1></div>
+
+<nav class="navbar navbar-default">
+<nav class="navbar navbar-default">
+  <div class="container-fluid" id="navbar-head">
+  <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+        </div>
+            <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="about.hmtl">About</a></li>
+            <li><a href="mass.html">The Mass</a></li>
+            <li><a href="sacrements.html">Sacrements</a></li>
+            <li><a href="parishLife.html">Parish Life</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="http://www.stmary-stthomas.org/">School</a></li>
+
+
+
+          </ul>
+        </div>
+       </div>
+   </nav>
+  <!-- End of Nav bar -->
+    
+</div>
+    <!--Main content -->
+<div class="mainBody">
+
+ 
+
+    <!-- Main Content -->
+    <div class="container" id="about_body">
+      <!-- Fr. Jim Profile -->
+      <div class="row featurette" id="fr_jim_profile">
+        
+         <div class="col-md-7">
+          <h2 class="featurette-heading">Current Pastor <span class="text-muted">Fr. Jim Kastigar</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/frJim.jpg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+         <hr class="featurette-divider">
+      <div class="container" id="about_rows">
+      <!-- History, Mission, Parish Staff -->
+      <div class="row">
+       <div class="col-md-4">
+          <h2>History</h2>
+          <p>In 1901, Buena Park was sparsely populated and the lakeshore reached as far west as Sheridan Road. There were only sixty families identified as Catholics who attended church when Father John J. Dennison was appointed to organize the parish.
+          </p>
+          <p><a class="btn btn-info" href="history.html" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Mission</h2>
+          <p>The Roman Catholic Parish of St. Mary of the Lake Church, by the grace of God, provides for the spiritual and human needs of the parish family and community; fosters unity and camaraderie by incorporating the rich diversity of cultures...</p>
+          <p><a class="btn btn-info" href="mission.html" role="button">View details &raquo;</a></p>
+        </div>
+         <div class="col-md-4">
+          <h2>Parish Staff</h2>
+          <p>A dedicated team of priests, deacons, and laypeople keep the church and school running smoothly. </p>
+          <p><a class="btn btn-info" href="staff.html" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <!-- St. Vincent dePaul Hagerty House -->
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+          <h2 class="featurette-heading">St. Vincent de Paul Hagerty Food Pantry</h2>
+          <p> The Hagerty Center, which was originally constructed to serve as a convent and presently houses the volunteers of Amate House, now functions most notably as the site for the St. Mary of the Lake Food Pantry, operated by the St. Mary of the Lake conference of the St. Vincent de Paul Society in partnership with our sharing parish, Immaculate Conception ( on Talcott Avenue)</p>
+          <p><a class="btn btn-info" href="hagerty.html" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+    </div> 
+      
+</div>
+<!-- End of MainBody -->
+
+<!--Footer -->
+<footer class="footer">
+  <div class="footer-top">
+  <div class="container-fluid">
+    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <h2>Mass Schedule</h2>
+                  <strong>Daily Masses:</strong> 8:00 am (Monday-Saturday)</br>
+                  <strong>Saturday (Anticipatory):</strong> 4:30 pm (English)</br>
+                  <strong>Sunday:</strong> 8:00 am, 9:30 am, 11:30 am, 1:00 pm (Spanish)</br>
+                  <strong>Confessions:</strong> Saturdays 3:30 pm - 4:15 pm</p>
+
+  </div>
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <h2><span>Contact</span> Us</h2>
+        <p class="contact_info"> 
+          Church Office</br>
+          <span>Address:</span> 4200 N Sheridan Rd, Chicago IL, USA<br/>
+          <span>Telephone:</span> (773) 472-3711<br />
+          <span>E-mail:</span> <a href="#">smchurchrectory@hotmail.com</a> </p>
+    </div>
+  </div>
+  </div>
+  </footer>
+
+
+<!--JavaScript Files -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+Joshua Torres 
+DB Administration 305
+Homework 1
+
+
+Part 1
+4.7. Consider the LIBRARY relational database schema shown in the text in Figure 4.6. Choose the appropriate action (reject, cascade, set to NULL , set to default) for each referential integrity constraint (that is, foreign key constraint), for the DELETION of a referenced tuple (don't worry about the UPDATE; those are all "cascade"). Justify your choices.
+Answers:
+#1 Cascade - The Publisher table is not referenced by another table with the database.
+#2 Reject - it would break the referential integrity by deleting a record that contains a value referred to by foreign key in another table
+#3 Reject - it would break the referential integrity by deleting a record that contains a value referred to by foreign key in another table
+#4 Reject - it would break the referential integrity by deleting a record that contains a value referred to by foreign key in another table
+#5 Reject - it would break the referential integrity by deleting a record that contains a value referred to by foreign key in another table
+#6 Reject - it would break the referential integrity by deleting a record that contains a value referred to by foreign key in another table
+#7 Cascade - The borrower table is not referenced by another table in the database
+
+Part 2
+4.10. Specify the following queries in SQL on the COMPANY relational database schema shown in Figure 3.5. Show the result of each query if it is applied to the COMPANY database in Figure 3.6.
+Answers:
+#1 
+SELECT e.lname, e.fname, p.pname
+FROM department d, employee e, works_on w, project p
+WHERE d.dnumber = 5
+AND e.ssn = w.essn
+AND w.pno = p.pnumber
+AND p.pname = 'ProductX'
+AND w.hours >=10
+ORDER BY e.lname, e.fname
+
+#2
+SELECT e.fname, e.lname
+FROM employee e, dependent d
+WHERE e.ssn = d.essn
+AND e.fname = d.dependent_name
+
+#3 
+SELECT e.fname, e.lname
+FROM employee e, department d
+WHERE d.dnumber = 5
+AND e.super_ssn = d.mgr_ssn
+ORDER BY e.lname, e.fname
+
+
+Part 3
+4.12. Specify the following queries in SQL on the database schema of Figure 1.2.
+Answers:
+ #1
+
+SELECT s.name
+FROM student s
+WHERE s.major = 'CS'
+AND s.class = '4'
+
+#2
+SELECT s.instructor, c.course_name
+FROM section s, course c
+WHERE s.instructor = 'King'
+AND s.course_number = c.course_number
+
+#3
+SELECT s.instructor, c.course_name, s.course_number, s.year, s.semester
+FROM section s, course c
+WHERE s.instructor = 'King'
+AND s.course_number = c.course_number
+
+#4
+SELECT s.name, c.course_name, c.course_number, c.credit_hours, s1.semester, s1.year, g.grade
+FROM student s, course c, section s1, grade_report g
+WHERE s.major = 'CS'
+AND s.class = '4'
+AND s1.course_number = c.course_number
+AND g.section_identifier = s1.section_identifier
+AND g.student_number = s.student_number
