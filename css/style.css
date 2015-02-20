@@ -1,5 +1,5 @@
 body {
-  background-color:   #CCCCCC;
+  background-color:   white;
 }
 
 /*header */
@@ -17,7 +17,7 @@ body {
 
 /* header nav */
 #header {
-  background-color: #404040 ;
+  background-color: #283034 ;
 }
 .navbar-default .navbar-brand {
   color: white;
@@ -39,12 +39,12 @@ text-align: center;
 
 /* Carousel base class */
 .carousel {
-  margin-top: 30px;
-  height: 300px;
-  margin-bottom: 30px;
-  width: 83%;
-  margin-right: auto;
-  margin-left: auto;
+  margin-top: none;
+  height: 700px;
+  margin-bottom: none;
+  width: 100%;
+  margin-right: none;
+  margin-left: none;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -53,7 +53,7 @@ text-align: center;
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 300px;
+  height: 700px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -61,19 +61,33 @@ text-align: center;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 300px;
+  height: 700px;
 }
 
 /* Main body section */ 
 
 .mainBody {
-  max-width: 1170px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-#homeContent {
-  background-color: #ffffff;
+.homePageRow1{
+  height: 300px;
 }
+.homePageRow2{
+  height: 300px;
+  background-color: #0ac5f4;
+}
+.homePageRow3{
+  height: 300px;
+  background-color: #EAEDF2;
+}
+.homePageRow4{
+  height: 300px;
+  background-color: #FEE253;
+}
+
+
 .main {
   padding: 20px;
 }
@@ -154,7 +168,7 @@ background-color: white;
 /*footer */
 .footer-top{
   color: #FEFCFF;
-  background-color: #404040 ;
+  background-color: #283034 ;
 }
 
 .btn.btn-default{
@@ -181,6 +195,6 @@ body {
   bottom: 0;
   width: 100%;
     /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
+  height: 200px;
+  background-color: #283034;
 }

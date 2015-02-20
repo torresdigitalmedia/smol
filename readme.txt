@@ -1,0 +1,1 @@
+This is a framework for St. Mary of the Lake Church.  As such, all material displayed belongs to the Church.  
