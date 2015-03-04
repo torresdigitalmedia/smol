@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta title="St. Mary of the Lake">
+<meta title="St Mary of the Lake">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Della+Respira' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
@@ -45,60 +45,50 @@
   <!-- End of Nav bar -->
     
 </div>
-    <!--Main content -->
-<div class="mainBody">
+   <!--Main content -->
+<div class="container" id="sacrementsBody">
+  
+    <!-- row 1 -->
+     <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 picLink">
+                      <p><h3>Current Pastors<h3></p>
 
- 
+              <a href="#" class="thumbnail">
+                <img src="images/pope.jpg" class="img-rounded" alt="125x125">
+              </a>          
+      </div>
+       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 picLink">
+                    <p><h3>History<h3></p>
+              <a href="history.html" class="thumbnail">
+                <img src="images/pope.jpg" class="img-rounded" alt="125x125">
+              </a>           
 
-    <!-- Main Content -->
-    <div class="container" id="about_body">
-      <!-- Fr. Jim Profile -->
-      <div class="row featurette" id="fr_jim_profile">
-        
-         <div class="col-md-7">
-          <h2 class="featurette-heading">Current Pastor <span class="text-muted">Fr. Jim Kastigar</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/frJim.jpg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
       </div>
-
-         <hr class="featurette-divider">
-      <div class="container" id="about_rows">
-      <!-- History, Mission, Parish Staff -->
-      <div class="row">
-       <div class="col-md-4">
-          <h2>History</h2>
-          <p>In 1901, Buena Park was sparsely populated and the lakeshore reached as far west as Sheridan Road. There were only sixty families identified as Catholics who attended church when Father John J. Dennison was appointed to organize the parish.
-          </p>
-          <p><a class="btn btn-info" href="history.html" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Mission</h2>
-          <p>The Roman Catholic Parish of St. Mary of the Lake Church, by the grace of God, provides for the spiritual and human needs of the parish family and community; fosters unity and camaraderie by incorporating the rich diversity of cultures...</p>
-          <p><a class="btn btn-info" href="mission.html" role="button">View details &raquo;</a></p>
-        </div>
-         <div class="col-md-4">
-          <h2>Parish Staff</h2>
-          <p>A dedicated team of priests, deacons, and laypeople keep the church and school running smoothly. </p>
-          <p><a class="btn btn-info" href="staff.html" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
-    </div>
-    <hr class="featurette-divider">
-    <!-- St. Vincent dePaul Hagerty House -->
-    <div class="container">
-      <div class="col-xs-12 col-sm-12 col-md-12">
-          <h2 class="featurette-heading">St. Vincent de Paul Hagerty Food Pantry</h2>
-          <p> The Hagerty Center, which was originally constructed to serve as a convent and presently houses the volunteers of Amate House, now functions most notably as the site for the St. Mary of the Lake Food Pantry, operated by the St. Mary of the Lake conference of the St. Vincent de Paul Society in partnership with our sharing parish, Immaculate Conception ( on Talcott Avenue)</p>
-          <p><a class="btn btn-info" href="hagerty.html" role="button">View details &raquo;</a></p>
-      </div>
-    </div>
-    </div> 
       
-</div>
+      </div>
+      
+    <!-- row 2 -->
+     <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 picLink">
+                      <p><h3>Mission<h3></p>
+      
+              <a href="mission.html" class="thumbnail">
+                <img src="images/pope.jpg" class="img-rounded" alt="125x125">
+              </a>           
+      </div>
+       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 picLink">
+                       <p><h3>Parish Staff<h3></p>
+     
+              <a href="staff.html" class="thumbnail">
+                <img src="images/pope.jpg" class="img-rounded" alt="125x125">
+              </a>          
+      </div> 
+    </div>
+   
 <!-- End of MainBody -->
+</div>
+
+    
 
 <!--Footer -->
 <footer class="footer">
@@ -124,10 +114,10 @@
   </div>
   </footer>
 
-
 <!--JavaScript Files -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<!--<script type="text/javascript"> $("#area").load("something.html #area");</script> -->
 </body>
 </html>

@@ -1,5 +1,11 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
-  background-color:   white;
+  /* Margin bottom by footer height */
+  margin-bottom: 200px;
+  background-color: white;
 }
 
 /*header */
@@ -87,6 +93,10 @@ text-align: center;
   background-color: #FEE253;
 }
 
+.picLink:hover {
+  background-color: gray;
+}
+
 
 .main {
   padding: 20px;
@@ -108,6 +118,7 @@ text-align: center;
   margin-right: auto;
 }
 #sacrementsBody {
+  min-height: 100%;
   background-color: white;
   text-align: center;
   margin-left: auto;
@@ -133,6 +144,12 @@ text-align: center;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+   min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
 }
 #fr_jim_profile {
 padding-top: 10px;
@@ -182,14 +199,6 @@ background-color: white;
 
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
 .footer {
   position: absolute;
   bottom: 0;
